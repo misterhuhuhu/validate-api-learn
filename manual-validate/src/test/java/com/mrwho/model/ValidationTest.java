@@ -17,7 +17,7 @@ public class ValidationTest {
     @BeforeAll
     public static void beforeClass() {
         ValidatorFactory validatorFactory = Validation.buildDefaultValidatorFactory();
-        
+        validatorFactory.close();
         validator = validatorFactory.getValidator();
     }
     

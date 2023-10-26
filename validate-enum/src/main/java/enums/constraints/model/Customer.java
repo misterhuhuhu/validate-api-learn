@@ -1,7 +1,7 @@
 package enums.constraints.model;
 
 import enums.constraints.CustomerEnum;
-import enums.constraints.EnumPattern;
+import enums.constraints.pattern.EnumPattern;
 
 public class Customer {
     
